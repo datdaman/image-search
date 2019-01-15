@@ -35,6 +35,8 @@ class App extends React.Component {
         images : resp.data.results,
         totalPhotos : resp.data.total < 100 ? resp.data.total : 100,
       })
+      
+      console.log(resp.data.results)
     })
   }
 
